@@ -1,0 +1,61 @@
+# ==========================================
+# Pastas de Backups e Dados Sensíveis
+# ==========================================
+backups/
+/backups/
+backups/*
+*.sqlite
+*.sqlite3
+*.db
+dump_*.sql
+importacao_*.zip
+
+# ==========================================
+# Logs
+# ==========================================
+logs/
+*.log
+
+# ==========================================
+# Arquivos compilados e cache Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# ==========================================
+# Ambientes Virtuais
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+
+# ==========================================
+# Build e Distribuição (PyInstaller)
+# ==========================================
+build/
+dist/
+*.spec
+
+# ==========================================
+# IDEs e Ferramentas
+# ==========================================
+.vscode/
+.idea/
+*.pydevproject
+.pytest_cache/
+
+# ==========================================
+# Scripts de teste/inspeção avulsos
+# ==========================================
+find_resource_factory.py
+inspect_foto_js.py
+inspect_idsecure_js.py
+
+# ==========================================
+# Instruções internas do Agente
+# ==========================================
+AGENTS/
+.agents/
