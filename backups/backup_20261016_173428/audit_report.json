@@ -1,0 +1,17 @@
+{
+  "backup_id": "backup_20261016_173428",
+  "created_at": "2026-10-16T17:34:30.285234",
+  "target_folder": "G:\\Meu Drive\\Projetos\\Bot Backup Catraca\\backups\\backup_20261016_173428",
+  "devices_scanned": 1,
+  "devices_backed_up": 1,
+  "total_users_consolidated": 1857,
+  "total_cards_consolidated": 1,
+  "total_groups_consolidated": 147,
+  "total_access_rules_consolidated": 3,
+  "total_faces_downloaded": 1562,
+  "total_faces_deduplicated": 0,
+  "total_faces_failed": 15,
+  "devices_details": [],
+  "conflicts_detected": [],
+  "errors": []
+}

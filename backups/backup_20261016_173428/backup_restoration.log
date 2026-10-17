@@ -1,0 +1,208 @@
+[2026-10-16 23:47:51] [INFO] Conectando ao servidor MySQL...
+[2026-10-16 23:47:51] [INFO] Conectando ao servidor MySQL...
+[2026-10-16 23:47:51] [INFO] Inspecionando colunas existentes nas tabelas do banco...
+[2026-10-16 23:47:51] [INFO] Inspecionando colunas existentes nas tabelas do banco...
+[2026-10-16 23:47:51] [INFO] Injetando 1857 usuários na tabela Users...
+[2026-10-16 23:47:51] [INFO] Injetando 1857 usuários na tabela Users...
+[2026-10-16 23:47:51] [INFO] Erro durante injeção no MySQL: (1292, "Incorrect datetime value: '1792205271' for column 'timeOfRegistration' at row 1")
+[2026-10-16 23:47:51] [INFO] Erro durante injeção no MySQL: (1292, "Incorrect datetime value: '1792205271' for column 'timeOfRegistration' at row 1")
+[2026-10-16 23:47:51] [ERROR] Exceção detalhada na injeção MySQL:
+Traceback (most recent call last):
+  File "G:\Meu Drive\Projetos\Bot Backup Catraca\backend\services\mysql_idsecure_service.py", line 348, in restore_direct_mysql
+    cursor.execute(sql, val_list)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\cursors.py", line 335, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 581, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 857, in _read_query_result
+    result.read()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 1290, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 810, in _read_packet
+    packet.raise_for_error()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\err.py", line 154, in raise_mysql_exception
+    raise errorclass(errno, errval, sqlstate=sqlstate)
+pymysql.err.OperationalError: (1292, "Incorrect datetime value: '1792205271' for column 'timeOfRegistration' at row 1")
+[2026-10-16 23:52:13] [INFO] Iniciando injeção direta de dados no banco MySQL...
+[2026-10-16 23:52:13] [INFO] Conectando ao servidor MySQL...
+[2026-10-16 23:52:13] [INFO] Conectando ao servidor MySQL...
+[2026-10-16 23:52:13] [INFO] Conectando ao servidor MySQL...
+[2026-10-16 23:52:13] [INFO] Conectando ao servidor MySQL...
+[2026-10-16 23:52:13] [INFO] Inspecionando colunas existentes nas tabelas do banco...
+[2026-10-16 23:52:13] [INFO] Inspecionando colunas existentes nas tabelas do banco...
+[2026-10-16 23:52:13] [INFO] Inspecionando colunas existentes nas tabelas do banco...
+[2026-10-16 23:52:13] [INFO] Inspecionando colunas existentes nas tabelas do banco...
+[2026-10-16 23:52:14] [INFO] Injetando 1857 usuários na tabela Users...
+[2026-10-16 23:52:14] [INFO] Injetando 1857 usuários na tabela Users...
+[2026-10-16 23:52:14] [INFO] Injetando 1857 usuários na tabela Users...
+[2026-10-16 23:52:14] [INFO] Injetando 1857 usuários na tabela Users...
+[2026-10-16 23:52:14] [INFO] Erro durante injeção no MySQL: (1292, "Incorrect datetime value: '1792205534' for column 'timeOfRegistration' at row 1")
+[2026-10-16 23:52:14] [INFO] Erro durante injeção no MySQL: (1292, "Incorrect datetime value: '1792205534' for column 'timeOfRegistration' at row 1")
+[2026-10-16 23:52:14] [INFO] Erro durante injeção no MySQL: (1292, "Incorrect datetime value: '1792205534' for column 'timeOfRegistration' at row 1")
+[2026-10-16 23:52:14] [INFO] Erro durante injeção no MySQL: (1292, "Incorrect datetime value: '1792205534' for column 'timeOfRegistration' at row 1")
+[2026-10-16 23:52:14] [ERROR] Exceção detalhada na injeção MySQL:
+Traceback (most recent call last):
+  File "G:\Meu Drive\Projetos\Bot Backup Catraca\backend\services\mysql_idsecure_service.py", line 348, in restore_direct_mysql
+    ts_int = int(time.time())
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\cursors.py", line 335, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 581, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 857, in _read_query_result
+    result.read()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 1290, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 810, in _read_packet
+    packet.raise_for_error()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\err.py", line 154, in raise_mysql_exception
+    raise errorclass(errno, errval, sqlstate=sqlstate)
+pymysql.err.OperationalError: (1292, "Incorrect datetime value: '1792205534' for column 'timeOfRegistration' at row 1")
+[2026-10-16 23:52:14] [ERROR] Exceção detalhada na injeção MySQL:
+Traceback (most recent call last):
+  File "G:\Meu Drive\Projetos\Bot Backup Catraca\backend\services\mysql_idsecure_service.py", line 348, in restore_direct_mysql
+    ts_int = int(time.time())
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\cursors.py", line 335, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 581, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 857, in _read_query_result
+    result.read()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 1290, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 810, in _read_packet
+    packet.raise_for_error()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\err.py", line 154, in raise_mysql_exception
+    raise errorclass(errno, errval, sqlstate=sqlstate)
+pymysql.err.OperationalError: (1292, "Incorrect datetime value: '1792205534' for column 'timeOfRegistration' at row 1")
+[2026-10-16 23:55:00] [INFO] Conectando ao servidor MySQL...
+[2026-10-16 23:55:00] [INFO] Conectando ao servidor MySQL...
+[2026-10-16 23:55:00] [INFO] Inspecionando colunas existentes nas tabelas do banco...
+[2026-10-16 23:55:00] [INFO] Inspecionando colunas existentes nas tabelas do banco...
+[2026-10-16 23:55:00] [INFO] Injetando 1857 usuários na tabela Users...
+[2026-10-16 23:55:00] [INFO] Injetando 1857 usuários na tabela Users...
+[2026-10-16 23:55:00] [INFO] Erro durante injeção no MySQL: (1364, "Field 'pis' doesn't have a default value")
+[2026-10-16 23:55:00] [INFO] Erro durante injeção no MySQL: (1364, "Field 'pis' doesn't have a default value")
+[2026-10-16 23:55:00] [ERROR] Exceção detalhada na injeção MySQL:
+Traceback (most recent call last):
+  File "G:\Meu Drive\Projetos\Bot Backup Catraca\backend\services\mysql_idsecure_service.py", line 374, in restore_direct_mysql
+    cursor.execute(sql, val_list)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\cursors.py", line 335, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 581, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 857, in _read_query_result
+    result.read()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 1290, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 810, in _read_packet
+    packet.raise_for_error()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\err.py", line 154, in raise_mysql_exception
+    raise errorclass(errno, errval, sqlstate=sqlstate)
+pymysql.err.OperationalError: (1364, "Field 'pis' doesn't have a default value")
+[2026-10-17 00:09:34] [INFO] Conectando ao servidor MySQL...
+[2026-10-17 00:09:34] [INFO] Conectando ao servidor MySQL...
+[2026-10-17 00:09:34] [INFO] Inspecionando colunas existentes nas tabelas do banco...
+[2026-10-17 00:09:34] [INFO] Inspecionando colunas existentes nas tabelas do banco...
+[2026-10-17 00:09:35] [INFO] Injetando 1857 usuários na tabela Users...
+[2026-10-17 00:09:35] [INFO] Injetando 1857 usuários na tabela Users...
+[2026-10-17 00:09:35] [INFO] Injetando 1 cartões na tabela Cards...
+[2026-10-17 00:09:35] [INFO] Injetando 1 cartões na tabela Cards...
+[2026-10-17 00:09:35] [INFO] Injetando 147 grupos na tabela Groups...
+[2026-10-17 00:09:35] [INFO] Injetando 147 grupos na tabela Groups...
+[2026-10-17 00:09:36] [INFO] Injetando 3100 vínculos na tabela UserGroups...
+[2026-10-17 00:09:36] [INFO] Injetando 3100 vínculos na tabela UserGroups...
+[2026-10-17 00:09:36] [INFO] Injetando 1 dispositivos na tabela Devices...
+[2026-10-17 00:09:36] [INFO] Injetando 1 dispositivos na tabela Devices...
+[2026-10-17 00:09:36] [INFO] Erro durante injeção no MySQL: (1366, "Incorrect integer value: 'iDFace' for column 'model' at row 1")
+[2026-10-17 00:09:36] [INFO] Erro durante injeção no MySQL: (1366, "Incorrect integer value: 'iDFace' for column 'model' at row 1")
+[2026-10-17 00:09:36] [ERROR] Exceção detalhada na injeção MySQL:
+Traceback (most recent call last):
+  File "G:\Meu Drive\Projetos\Bot Backup Catraca\backend\services\mysql_idsecure_service.py", line 524, in restore_direct_mysql
+    cursor.execute(sql, val_list)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\cursors.py", line 335, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 581, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 857, in _read_query_result
+    result.read()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 1290, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\connections.py", line 810, in _read_packet
+    packet.raise_for_error()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Leo-dev\AppData\Roaming\Python\Python315\site-packages\pymysql\err.py", line 154, in raise_mysql_exception
+    raise errorclass(errno, errval, sqlstate=sqlstate)
+pymysql.err.DataError: (1366, "Incorrect integer value: 'iDFace' for column 'model' at row 1")
+[2026-10-17 00:13:55] [INFO] Conectando ao servidor MySQL...
+[2026-10-17 00:13:55] [INFO] Conectando ao servidor MySQL...
+[2026-10-17 00:13:55] [INFO] Inspecionando colunas existentes nas tabelas do banco...
+[2026-10-17 00:13:55] [INFO] Inspecionando colunas existentes nas tabelas do banco...
+[2026-10-17 00:13:55] [INFO] Injetando 1857 usuários na tabela Users...
+[2026-10-17 00:13:55] [INFO] Injetando 1857 usuários na tabela Users...
+[2026-10-17 00:13:56] [INFO] Injetando 1 cartões na tabela Cards...
+[2026-10-17 00:13:56] [INFO] Injetando 1 cartões na tabela Cards...
+[2026-10-17 00:13:56] [INFO] Injetando 147 grupos na tabela Groups...
+[2026-10-17 00:13:56] [INFO] Injetando 147 grupos na tabela Groups...
+[2026-10-17 00:13:56] [INFO] Injetando 3100 vínculos na tabela UserGroups...
+[2026-10-17 00:13:56] [INFO] Injetando 3100 vínculos na tabela UserGroups...
+[2026-10-17 00:13:57] [INFO] Injetando 1 dispositivos na tabela Devices...
+[2026-10-17 00:13:57] [INFO] Injetando 1 dispositivos na tabela Devices...
+[2026-10-17 00:13:57] [INFO] Injeção direta no MySQL do iDSecure concluída com sucesso!
+[2026-10-17 00:13:57] [INFO] Injeção direta no MySQL do iDSecure concluída com sucesso!
+[2026-10-17 00:14:33] [INFO] Iniciando envio de fotos faciais para o iDSecure via API...
+[2026-10-17 00:14:33] [INFO] Sincronizando 1558 fotos com a API do iDSecure...
+[2026-10-17 00:14:35] [INFO] Iniciando envio de fotos faciais para o iDSecure via API...
+[2026-10-17 00:14:35] [INFO] Sincronizando 1558 fotos com a API do iDSecure...
+[2026-10-17 00:15:23] [INFO] Sincronização de fotos concluída: 0 enviadas com sucesso, 1558 falhas.
+[2026-10-17 00:15:23] [INFO] Sincronização de fotos concluída: 0 enviadas com sucesso, 1558 falhas.
+[2026-10-17 00:15:23] [INFO] Finalizado: 0 foto(s) enviada(s), 1558 falha(s).
+[2026-10-17 00:15:23] [INFO] Finalizado: 0 foto(s) enviada(s), 1558 falha(s).
